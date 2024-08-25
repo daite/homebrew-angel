@@ -5,7 +5,7 @@ class DownloadVideo < Formula
     sha256 "b1a4db5049943834ba7ecc30aba93928ca111d894eb8611ee803ef63a9d34a77"  # Calculate the SHA256 checksum of the script file
   
     def install
-        bin.install "shell-0.1.0/code/download_video.sh" => "download_video"
+        bin.install "./code/download_video.sh" => "download_video"
         chmod 0755, bin/"download_video"
       end
     
