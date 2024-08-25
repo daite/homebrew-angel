@@ -86,5 +86,17 @@ When you release a new version of `angel`, update the `url` and `sha256` in the 
 
 ```bash
 brew update
-brew upgrade angel
+```
+```bash
+❯ brew info angel
+==> daite/angel/angel: stable 0.8.1
+simple CLI for searching torrent magnet!
+https://github.com/daite/angel
+Installed
+/opt/homebrew/Cellar/angel/0.8.1 (6 files, 10.8MB) *
+  Built from source on 2024-08-25 at 20:34:53
+From: https://github.com/daite/homebrew-angel/blob/HEAD/Formula/angel.rb
+License: MIT
+==> Dependencies
+Build: go ✔
 ```
