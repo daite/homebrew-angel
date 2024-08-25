@@ -8,12 +8,10 @@ class Angel < Formula
     depends_on "go" => :build
   
     def install
-      system "go", "build", "-o", bin/"angel", "./cmd/angel"
+      system "go", "build", "-ldflags", "'-s -w'", "-o", bin/"angel", "./cmd/angel"
     end
   
     test do
       assert_match "angel version", shell_output("#{bin}/angel --version")
     end
   end
-  
-
