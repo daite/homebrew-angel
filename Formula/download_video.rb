@@ -14,5 +14,3 @@ class DownloadVideo < Formula
         assert_match "Usage:", shell_output("#{bin}/download_video --help 2>&1")
       end
 end
-  
-  
