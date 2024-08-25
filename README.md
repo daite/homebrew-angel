@@ -1,4 +1,4 @@
-# homebrew-angel
+# homebrew-collection
 To set up a remote Homebrew tap for your project, such as the `angel` tool, you’ll need to host your formula on GitHub. Here’s how you can set up a remote Homebrew tap for `angel`:
 
 ### 1. Create a GitHub Repository for Your Tap
