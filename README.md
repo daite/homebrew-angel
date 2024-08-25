@@ -8,13 +8,13 @@ To set up a remote Homebrew tap for your project, such as the `angel` tool, you�
    - **Repository Name:** It should follow the naming convention `homebrew-<name>`. 
    - **Visibility:** You can choose to make it public or private depending on who should have access.
 
-   Your repository URL will look like this: `https://github.com/<your-username>/homebrew-angel`
+   Your repository URL will look like this: `https://github.com/<your-username>/homebrew-collection`
 
 2. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/<your-username>/homebrew-angel.git
-   cd homebrew-angel
+   git clone https://github.com/<your-username>/homebrew-collection.git
+   cd homebrew-collection
    ```
 
 ### 2. Add the Formula to Your Repository
@@ -71,7 +71,7 @@ Now that your tap is hosted on GitHub, users can install your `angel` tool using
 1. Users first need to tap your repository:
 
    ```bash
-   brew tap <your-username>/angel
+   brew tap <your-username>/collection
    ```
 
 2. They can then install the `angel` tool:
@@ -88,14 +88,12 @@ When you release a new version of `angel`, update the `url` and `sha256` in the 
 brew update
 ```
 ```bash
-❯ brew info angel
-==> daite/angel/angel: stable 0.8.1
 simple CLI for searching torrent magnet!
 https://github.com/daite/angel
 Installed
-/opt/homebrew/Cellar/angel/0.8.1 (6 files, 10.8MB) *
-  Built from source on 2024-08-25 at 20:34:53
-From: https://github.com/daite/homebrew-angel/blob/HEAD/Formula/angel.rb
+/opt/homebrew/Cellar/angel/0.8.1 (6 files, 7.5MB) *
+  Built from source on 2024-08-25 at 21:07:17
+From: https://github.com/daite/homebrew-collection/blob/HEAD/Formula/angel.rb
 License: MIT
 ==> Dependencies
 Build: go ✔
