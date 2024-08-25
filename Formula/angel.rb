@@ -8,7 +8,7 @@ class Angel < Formula
     depends_on "go" => :build
   
     def install
-      system "go", "build", "-ldflags", "'-s -w'", "-o", bin/"angel", "./cmd/angel"
+      system "go", "build", "-ldflags", "-s -w", "-o", bin/"angel", "./cmd/angel"
     end
   
     test do
