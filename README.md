@@ -5,7 +5,7 @@ To set up a remote Homebrew tap for your project, such as the `angel` tool, youâ
 
 1. Go to GitHub and create a new repository.
 
-   - **Repository Name:** It should follow the naming convention `homebrew-<name>`. For example: `homebrew-angel`.
+   - **Repository Name:** It should follow the naming convention `homebrew-<name>`. 
    - **Visibility:** You can choose to make it public or private depending on who should have access.
 
    Your repository URL will look like this: `https://github.com/<your-username>/homebrew-angel`
