@@ -88,30 +88,3 @@ When you release a new version of `angel`, update the `url` and `sha256` in the 
 brew update
 brew upgrade angel
 ```
-
-### 5. Optional: Add a README for the Tap
-
-You can add a README file to your GitHub repository to provide instructions on how to use the tap and install `angel`:
-
-```markdown
-# homebrew-angel
-
-This is the Homebrew tap for the Angel tool.
-
-## Installation
-
-```bash
-brew tap <your-username>/angel
-brew install angel
-```
-
-## Usage
-
-Run `angel` with the appropriate commands.
-
-For more details, visit [the official Angel repository](https://github.com/daite/angel).
-```
-
-### Summary
-
-Once this setup is complete, you have a fully functioning Homebrew tap that others can easily use to install your `angel` tool directly from GitHub.
