@@ -97,3 +97,7 @@ License: MIT
 ==> Dependencies
 Build: go ✔
 ```
+### 5. Reference
+```bash
+https://formulae.brew.sh/
+```
