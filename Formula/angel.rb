@@ -14,4 +14,4 @@ class Angel < Formula
     test do
       assert_match "angel version", shell_output("#{bin}/angel --version")
     end
-  end
+end
