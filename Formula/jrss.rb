@@ -16,5 +16,4 @@ class Jrss < Formula
       # Basic test to ensure the binary works
       assert_match "jrss version", shell_output("#{bin}/jrss --version")
     end
-  end
-  
+end  
